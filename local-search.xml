@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>hexo图片加载问题及图床解决方法</title>
+    <link href="/2025/01/23/hexo%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E9%97%AE%E9%A2%98%E5%8F%8A%E5%9B%BE%E5%BA%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <url>/2025/01/23/hexo%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E9%97%AE%E9%A2%98%E5%8F%8A%E5%9B%BE%E5%BA%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    
+    <content type="html"><![CDATA[<h4 id="前言：鄙人不才，代码小白，尝试了许多方案解决hexo个人博客图片无法加载的问题，终于通过图床（PicGo-SM-MS）的方式解决该问题，以下为纯小白的步骤，按照步骤可无脑解决。"><a href="#前言：鄙人不才，代码小白，尝试了许多方案解决hexo个人博客图片无法加载的问题，终于通过图床（PicGo-SM-MS）的方式解决该问题，以下为纯小白的步骤，按照步骤可无脑解决。" class="headerlink" title="前言：鄙人不才，代码小白，尝试了许多方案解决hexo个人博客图片无法加载的问题，终于通过图床（PicGo+SM.MS）的方式解决该问题，以下为纯小白的步骤，按照步骤可无脑解决。"></a>前言：鄙人不才，代码小白，尝试了许多方案解决hexo个人博客图片无法加载的问题，终于通过图床（PicGo+SM.MS）的方式解决该问题，以下为纯小白的步骤，按照步骤可无脑解决。</h4><h1 id="一-安装PicGo"><a href="#一-安装PicGo" class="headerlink" title="一.安装PicGo"></a>一.安装PicGo</h1><h2 id="步骤-1-安装-PicGo"><a href="#步骤-1-安装-PicGo" class="headerlink" title="步骤 1: 安装 PicGo"></a>步骤 1: 安装 PicGo</h2><p><strong>下载地址: <a href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></strong><br>Windows 11 系统（通常为 64 位架构）应选择以下版本：<br><strong>PicGo-Setup-2.4.0-beta.8-x64.exe</strong><br><img src="https://s2.loli.net/2025/01/23/kFUh83YZbL2oxD6.png"></p><h2 id="步骤2：安装完成后启动-PicGo"><a href="#步骤2：安装完成后启动-PicGo" class="headerlink" title="步骤2：安装完成后启动 PicGo"></a>步骤2：安装完成后启动 PicGo</h2><p><img src="https://s2.loli.net/2025/01/23/JZPFreWx9pTqo1j.png"></p><h1 id="二、配置图床（以-SM-MS-为例）"><a href="#二、配置图床（以-SM-MS-为例）" class="headerlink" title="二、配置图床（以 SM.MS 为例）"></a>二、配置图床（以 SM.MS 为例）</h1><h2 id="步骤-1：注册-SM-MS-账号"><a href="#步骤-1：注册-SM-MS-账号" class="headerlink" title="步骤 1：注册 SM.MS 账号"></a>步骤 1：注册 SM.MS 账号</h2><p><strong>访问 SM.MS 官网，点击页面中间 Sign Up 注册账号。<br>注册后进入 Dashboard 生成 API Token（用于管理图片）</strong><br><img src="https://s2.loli.net/2025/01/23/iUpHxvZ1PaQ6tXM.png"><br><img src="https://s2.loli.net/2025/01/23/QuhImKvPGqNXsfU.png"><br><img src="https://s2.loli.net/2025/01/23/cj2sX8v3oJlEYbd.png"><br><strong>然后生成API Token，复制即可</strong></p><h2 id="步骤-2：在-PicGo-中配置-SM-MS"><a href="#步骤-2：在-PicGo-中配置-SM-MS" class="headerlink" title="步骤 2：在 PicGo 中配置 SM.MS"></a>步骤 2：在 PicGo 中配置 SM.MS</h2><p><strong>1.打开 PicGo → 左侧导航栏点击 图床设置 → 选择 SM.MS图床。</strong></p><p><strong>2.填写以下信息:API Token:<br>粘贴 SM.MS 的 API Token（如果不填，默认使用公共 API，但无法管理上传的图片）。</strong><br><strong>3.点击 确定 保存配置。</strong></p><h1 id="三、上传图片并生成链接"><a href="#三、上传图片并生成链接" class="headerlink" title="三、上传图片并生成链接"></a>三、上传图片并生成链接</h1><p><strong>拖拽上传直接将本地图片拖拽到 PicGo 主窗口。</strong></p><p><strong>上传成功后，PicGo 会自动将图片链接复制到剪贴板。</strong></p><p><strong>在 Hexo 的 Markdown 文件中粘贴链接，格式如下：</strong><br><img src="https://s2.loli.net/2025/01/23/OYDwch8qxf5MlW9.png"></p><p><strong>俺要狠狠用图片，嘻嘻~</strong></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo问题</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>设计与制造1资料汇总</title>
     <link href="/2025/01/22/%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%B6%E9%80%A01%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/"/>
     <url>/2025/01/22/%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%B6%E9%80%A01%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</url>
